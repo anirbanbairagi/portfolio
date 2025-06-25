@@ -50,6 +50,7 @@
   --mb-2: 2rem;
   --mb-2-5: 2.5rem;
   --mb-3: 3rem;
+  --mb-5: 5rem;
 
   /*========== z index ==========*/
   --z-tooltip: 10;
@@ -296,7 +297,7 @@ img {
 }
 
 .home__social-icon {
-  font-size: 1.25rem;
+  font-size: 2rem;
   color: var(--first-color);
 }
 
@@ -356,6 +357,32 @@ img {
 
 .home__scroll-arrow {
   font-size: 1.25rem;
+}
+
+.tech-stack {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--first-color);
+  letter-spacing: 0.5px;
+  padding: 5px 0;
+  margin-bottom: 30px;
+  border-top: 3px solid var(--first-color);
+  border-bottom: 3px solid var(--first-color);
+  display: inline-block;
+}
+
+/*==================== ANIMATED BORDER ====================*/
+.animated-border {
+  stroke-dasharray: 5 2;  /* Adjust to path length */
+  stroke-dashoffset: 1000;
+  animation: dash 120s linear infinite;
+  transform-origin: 150px 100px; /* center of SVG */
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
 }
 
 /*==================== BUTTONS ====================*/
@@ -419,6 +446,7 @@ img {
   text-align: center;
   margin-bottom: var(--mb-2-5);
 }
+
 
 .about_info {
   display: flex;
@@ -760,7 +788,7 @@ img {
 }
 
 .project__img {
-  width: 220px;
+  width: 210px;
   justify-self: center;
 }
 
@@ -862,7 +890,7 @@ img {
 
 .footer__bg {
   background-color: var(--first-color);
-  padding: 2rem 0 3rem;
+  padding: 2rem 0 2rem;
 }
 
 .footer__title {
@@ -871,7 +899,7 @@ img {
 }
 
 .footer__subtitle {
-  font-size: var(--small-font-size);
+  font-size: var(--medium-font-size);
 }
 
 .footer__links {
@@ -885,7 +913,7 @@ img {
 }
 
 .footer__social {
-  font-size: 1.25rem;
+  font-size: 2rem;
   margin-right: var(--mb-1-5);
 }
 
