@@ -341,7 +341,7 @@ img {
 }
 
 .home__scroll-button:hover {
-  transform: translateY(0.25rem)
+  transform: translateY(0.5rem)
 }
 
 .home__scroll-mouse {
@@ -1143,7 +1143,7 @@ footer .footer__social a:hover {
   }
 
   .home__scroll-button {
-    margin-left: 3rem;
+    margin-left: 20rem;
   }
 
   .about__container {
