@@ -1145,7 +1145,10 @@ footer .footer__social a:hover {
   .home__scroll-button {
     margin-left: 19.5rem;
   }
-
+  .find__more {
+    margin-top: 100px; /* adjust px as needed */
+    text-align: center; /* if you want it centered horizontally */
+  }
   .about__container {
     column-gap: 5rem;
   }
